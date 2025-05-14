@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>TWIO's Contato</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="background-color: black; color: white; font-family: Arial, sans-serif; padding: 2rem;">
+    <h2 style="text-align: center;">Fale com o Suporte</h2>
+    <p style="text-align: center;">Entre em contato conosco através do formulário abaixo:</p>
+    <form action="enviar.php" method="POST" style="max-width: 600px; margin: 2rem auto; display: flex; flex-direction: column; gap: 1rem;">
+      <input type="text" name="nome" placeholder="Seu nome" required style="padding: 0.8rem; border-radius: 0.5rem;">
+      <input type="email" name="email" placeholder="Seu e-mail" required style="padding: 0.8rem; border-radius: 0.5rem;">
+      <input type="text" name="assunto" placeholder="Assunto" style="padding: 0.8rem; border-radius: 0.5rem;">
+      <textarea name="mensagem" placeholder="Escreva sua mensagem" rows="6" required style="padding: 0.8rem; border-radius: 0.5rem;"></textarea>
+      <button type="submit" style="padding: 1rem; border-radius: 0.5rem; background-color: #0ff; color: black; font-weight: bold;">Enviar</button>
+    </form>
+  </body>
+</html>
